@@ -24,7 +24,7 @@ const useLaptops = () => {
       try {
         await new Promise(resolve => setTimeout(resolve, 2000));
 
-        const response = await fetch("/LaptopData.json");
+        const response = await fetch(`${import.meta.env.BASE_URL}LaptopData.json`);
 
         if (!response.ok) {
           throw new Error("Couldn't retrieve data");

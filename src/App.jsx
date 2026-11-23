@@ -1,10 +1,10 @@
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import { createHashRouter,RouterProvider } from "react-router-dom";
 
 import Home from "./pages/home.jsx";
 import FindLaptops from "./pages/findLaptops.jsx";
 import LaptopDetails from "./pages/LaptopDetails.jsx";
 
-const router= createBrowserRouter([
+const router= createHashRouter([
   {
     path:"/",
     element: <Home/>
@@ -17,8 +17,9 @@ const router= createBrowserRouter([
   path: "/laptop/:id",
   element: <LaptopDetails />
   }
-])
-
+], {
+  basename: import.meta.env.BASE_URL
+});
 function App() {
 
   return <RouterProvider router={router}/> ;
