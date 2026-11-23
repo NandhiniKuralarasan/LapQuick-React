@@ -1,0 +1,44 @@
+{
+    "Laptops" : [
+  {
+    "name": "ASUS Vivobook Go 14",
+    "price": 30990,
+    "image": "ASUS.jpg",
+    "brand":"Asus",
+    "usage":["Study","Office","Entertainment"],
+    "processor": "AMD Ryzen 3 7320U",
+    "RAM": "8GB",
+    "storage": "512GB SSD"
+  },
+  {
+    "name": "Dell Inspiron 15 3535",
+    "price": 56990,
+    "image": "Dell.jpg",
+    "brand":"Dell",
+    "usage":["Study","Coding","Office"],
+    "processor": "AMD Ryzen 5 7530U",
+    "RAM": "16GB DDR4",
+    "storage": "512GB SSD"
+  },
+  {
+    "name": "Acer Nitro V 15",
+    "price": 75040,
+    "image": "Acer.jpg",
+    "brand":"Acer",
+    "usage":["Gaming","Coding","Design"],
+    "processor": "AMD Ryzen 7 7735HS",
+    "RAM": "16GB DDR5",
+    "storage": "512GB SSD"
+  },
+  {
+    "name": "Lenovo IdeaPad Slim 3",
+    "price": 43789,
+    "image": "Lenovo.jpg",
+    "brand":"Lenovo",
+    "usage":["Study","Office","Entertainment"],
+    "processor":"AMD Ryzen 5 7520U",
+    "RAM": "8GB DDR5",
+    "storage": "512GB SSD"
+  }
+]
+}
