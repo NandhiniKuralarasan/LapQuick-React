@@ -17,9 +17,7 @@ const router= createHashRouter([
   path: "/laptop/:id",
   element: <LaptopDetails />
   }
-], {
-  basename: import.meta.env.BASE_URL
-});
+]);
 function App() {
 
   return <RouterProvider router={router}/> ;
